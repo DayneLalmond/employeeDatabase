@@ -1,18 +1,10 @@
-CREATE DATABASE team_db;
+CREATE DATABASE module12;
 
-USE team_db;
+USE module12;
 
 CREATE TABLE department (
-    id INT NOT NULL 
+    id INT AUTO_INCREMENT NOT NULL,
+    name VARCHAR(30),
+    PRIMARY KEY (id)
 )
 
-CREATE TABLE role (
-    id INT NOT NULL
-)
-
-CREATE TABLE employee (
-    id INT NOT NULL
-)
-
-
--- Has to be a primary key(id) to autoincrement
