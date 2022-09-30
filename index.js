@@ -161,36 +161,3 @@ function update() {
     }
   })
 };
-
-
-// function selectRole() {
-//   inquirer.prompt([{
-//     type: "list",
-//     name: "role",
-//     message: 'Select role',
-//     choices: ['Employees', 'That', 'One', 'Two']
-//   }])
-//   .then(function selectedRole(list) {
-//     server.query(`SELECT ${list.role}`)
-//   })
-// };
-
-// function display() {
-//   server.query('SELECT * FROM module12.department', function (err, results) {
-    
-//     if (err) throw err
-//     console.log(results)
-//     log()
-//   })
-
-// }
-
-
-
-    // .then(function (word) {
-    //   server.query(`INSERT INTO department (name) VALUES ('${word.deptname}')`, function (err) {
-    //     if (err) throw err
-    //     console.log("added to dept")
-    //     log()
-    //   })
-    // })
